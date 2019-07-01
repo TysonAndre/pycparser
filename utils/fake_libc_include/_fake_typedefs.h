@@ -2,6 +2,7 @@
 #define _FAKE_TYPEDEFS_H
 
 typedef int size_t;
+typedef int socklen_t;
 typedef int __builtin_va_list;
 typedef int __gnuc_va_list;
 typedef int va_list;
@@ -38,6 +39,7 @@ typedef int wint_t;
 typedef int _mbstate_t;
 typedef int _flock_t;
 typedef int _iconv_t;
+typedef int iconv_t;
 typedef int __ULong;
 typedef int __FILE;
 typedef int ptrdiff_t;
@@ -72,6 +74,7 @@ typedef int timer_t;
 typedef int useconds_t;
 typedef int suseconds_t;
 typedef int FILE;
+typedef int DIR;
 typedef int fpos_t;
 typedef int cookie_read_function_t;
 typedef int cookie_write_function_t;
